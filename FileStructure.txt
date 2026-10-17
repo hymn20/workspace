@@ -1,0 +1,38 @@
+├── .env
+├── .env.example
+├── .gitignore
+├── .htaccess
+├── app
+│  ├── Core
+│  ├── Http
+│  ├── Models
+│  ├── Pipelines
+│  ├── Policies
+│  ├── Services
+│  ├── Support
+│  └── Views
+├── composer.json
+├── config
+├── database
+├── FileStructure.txt
+├── package-lock.json
+├── package.json
+├── public
+│  ├── api
+│  │  └── index.php
+│  ├── assets
+│  │  ├── css
+│  │  ├── images
+│  │  └── js
+│  ├── index.php
+│  ├── manifest.json
+│  └── sw.js
+├── README.md
+├── Repositories
+├── resources
+│  └── css
+│    └── input.css
+├── routes
+├── src
+├── storage
+└── tests

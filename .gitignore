@@ -1,0 +1,54 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Runtime logs
+*.log
+/logs/
+/storage/logs/
+
+# Cache and temporary files
+/storage/cache/
+/bootstrap/cache/
+/tmp/
+/temp/
+*.tmp
+*.temp
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Debugging and profiling
+.phpunit.cache/
+/coverage/
+/*.prof
+/php_errors.log
+
+# Build artifacts
+/dist/
+/build/
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Local development configuration
+/.php-version
+/.tool-versions

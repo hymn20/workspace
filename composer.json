@@ -1,0 +1,19 @@
+{
+    "name": "roniv/workspace",
+    "autoload": {
+        "psr-4": {
+  "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ron",
+            "email": "ron.delmundo2025@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.7",
+        "firebase/php-jwt": "^7.2",
+        "illuminate/database": "^13.37"
+    }
+}
